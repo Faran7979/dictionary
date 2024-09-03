@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container active">
+      <!-- Title of the page -->
+      <header>Open Dictionary</header>
+      <hr />
+      
+      <div class="search">
+        <!-- TODO add event listener on Enter key pressed and then, get the word from dictionary -->
+        <input
+        id="txtSearch"
+          type="text"
+          placeholder="Search here..."
+          required
+          spellcheck="false"
+          onkeydown="getonkeydown(event)"
+        />
+        
+        <i class="fas fa-search"></i>
+      </div>
+      <ul id="list">
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
